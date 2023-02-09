@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.list-tabs{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 2em;
+    /* background-color: red; */
+}
+.list-tabs a{
+    border: 1px solid black;
+    padding: 5px 30px;
+}
+.active{
+    background-color: black;
+    color: white;
+}
+.tab-content{
+    padding: 10px;
+    margin-top: 20px;
+    height: 100px;
+    width: 440px;
+    border: 1px solid black;
+    font-size: 1.45em;
+}
